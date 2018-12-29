@@ -1,0 +1,18 @@
+{
+  "Immediately invoked function expression": {
+    "scope": "javascript,typescript",
+    "prefix": "iife",
+    "body": [";(function() {", "  $1", "})()"],
+    "description": "Create an immediately invoked function"
+  },
+  "On DOMContentLoaded": {
+    "scope": "javascript,typescript",
+    "prefix": "dom",
+    "body": [
+      "document.addEventListener('DOMContentLoaded', function() {",
+      "  $1",
+      "})"
+    ],
+    "description": "Create an immediately invoked function"
+  }
+}
