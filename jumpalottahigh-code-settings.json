@@ -34,29 +34,26 @@
   "explorer.confirmDelete": false,
   "git.confirmSync": false,
   "explorer.confirmDragAndDrop": false,
-  "cSpell.userWords": ["burlywood", "diablo", "georgi", "lindberg", "yanev"],
   "gitlens.keymap": "chorded",
   "liveServer.settings.donotShowInfoMsg": true,
   "vsicons.dontShowNewVersionMessage": true,
   "editor.fontFamily": "'Dank Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "gitlens.historyExplorer.enabled": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "editor.largeFileOptimizations": false,
-  "LineCount.excludes": [
-    "**/.vscode/**",
-    "**/yarn.lock",
-    "**/node_modules/**",
-    "**/.cache/**",
-    "**/public/**",
-    "**/static/**",
-    "**/out/**",
-    "**/src/pages/blog/**"
-  ],
-  "LineCount.includes": ["**/src/**/*.js"],
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true
+  "gitlens.views.lineHistory.enabled": true,
+  "eslint.validate": ["javascript", "javascriptreact"]
+  /* YouTube config*/
+  // "editor.fontSize": 24,
+  // "editor.lineNumbers": "none",
+  // "editor.terminal.integrated.fontSize": 20,
+  // "workbench.statusBar.visible": false,
+  // "scm.diffDecorations": false,
+  // "window.zoomLevel": 2,
+  // "editor.cursorBlinking": "solid"
+  /* Egghead config*/
 }
