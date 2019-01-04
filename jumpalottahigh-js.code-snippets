@@ -38,5 +38,55 @@
     "prefix": "fe",
     "body": ["$1.forEach(function() {", "  $2", "})"],
     "description": ".forEach"
+  },
+  "React function component": {
+    "scope": "javascript,typescript",
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "const $1 = () => (",
+      "  $2",
+      ")",
+      "",
+      "export default $1"
+    ],
+    "description": "React function component"
+  },
+  "React class component": {
+    "scope": "javascript,typescript",
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "export default class $1 extends React.Component {",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        $2",
+      "      </div>",
+      "    )",
+      "  }",
+      "}"
+    ],
+    "description": "React class component"
+  },
+  "GraphQL page query": {
+    "scope": "javascript,typescript",
+    "prefix": "gql page",
+    "body": [
+      "export const pageQuery = graphql`",
+      "  query $1 {",
+      "    $2 {",
+      "      edges {",
+      "        node {",
+      "          $3",
+      "        }",
+      "      }",
+      "    }",
+      "  }",
+      "`"
+    ],
+    "description": "GraphQL page query"
   }
 }
