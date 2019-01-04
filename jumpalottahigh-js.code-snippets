@@ -14,5 +14,29 @@
       "})"
     ],
     "description": "Create an immediately invoked function"
+  },
+  "document.querySelector": {
+    "scope": "javascript,typescript",
+    "prefix": "dqs",
+    "body": ["document.querySelector('$1')"],
+    "description": "document.querySelector"
+  },
+  "document.querySelectorAll": {
+    "scope": "javascript,typescript",
+    "prefix": "dqsa",
+    "body": ["document.querySelectorAll('$1')"],
+    "description": "document.querySelectorAll"
+  },
+  ".addEventListener": {
+    "scope": "javascript,typescript",
+    "prefix": "ael",
+    "body": ["$1.addEventListener('$2', function() {", "  $3", "})"],
+    "description": "document.querySelectorAll"
+  },
+  ".forEach": {
+    "scope": "javascript,typescript",
+    "prefix": "fe",
+    "body": ["$1.forEach(function() {", "  $2", "})"],
+    "description": ".forEach"
   }
 }
